@@ -1,0 +1,55 @@
+.banner-image-about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../images/nike1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.about-nike {
+  /* we are taking margin-right because the container text align is center and if doing margin-right it shifts from center to left */
+  margin-right: 60%;
+  padding: 20px;
+  padding-top: 230px;
+  /* the above padding top will be replaced by padding-top:230px 
+When one value is specified, it applies the same padding to all four sides.
+When two values are specified, the first padding applies to the top and bottom, the second to the left and right.
+When three values are specified, the first padding applies to the top, the second to the right and left, the third to the bottom.
+When four values are specified, the paddings apply to the top, right, bottom, and left in that order (clockwise).*/
+}
+.about-nike-text {
+  font-size: 25px;
+  color: black;
+  font-family: "Rowdies", cursive;
+  text-shadow: 4px 4px 1px #1e80d4;
+}
+
+/* selects the paragraph inside the about-nike-text class */
+.about-nike > p {
+  margin: 20px;
+  font-size: 22px;
+  font-family: "Rowdies", cursive;
+  color: black;
+  text-shadow: 1px 1px 1px rgb(27, 77, 124);
+}
+.about-nike-part {
+  margin: 40px;
+  padding: 40px;
+}
+.about-nike-heading {
+  font-family: "Rowdies", cursive;
+  margin: 20px;
+  font-size: 40px;
+  text-shadow: 4px 2px 1px black;
+  color: #5fa5ff;
+  /* The font-variant property in CSS Cascade Style Sheets is used to specify whether we want the text to be displayed in small-caps font or not. Note: Small-caps font is used to convert all the lowercase letters into upper case, but the font size of converted letters is smaller than the original uppercase letters */
+  font-variant: small-caps;
+}
+.about-nike-para {
+  font-family: "Rowdies", cursive;
+  text-shadow: 1px 1px 1px black;
+  font-size: 25px;
+  color: black;
+}

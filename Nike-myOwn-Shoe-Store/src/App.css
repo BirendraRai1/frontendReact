@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(-90deg, gray, white);
+  height: 100vh;
+}
+
+.container {
+  font-family: "Merienda One", cursive;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+}

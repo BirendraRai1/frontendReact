@@ -1,0 +1,94 @@
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-image {
+  /* The linear-gradient() CSS function creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the <gradient> data type, which is a special kind of <image> */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../images/nike2.jpg");
+  /* The background-size property specifies the size of the background images */
+  background-size: auto;
+  /* The background-position property sets the starting position of a background image. */
+  background-position: center;
+  border-radius: 20px;
+  height: 100vh;
+  /* Pixels are an absolute unit, so when you set the font size to 24 pixels, it's going to be 24 pixels. Rems, on the other hand, are relative units that are based on the document's font-size. The document's default font size is 16 pixels, so 1.5rems x 16px is the equivalent of 24 pixels */
+  margin: 1rem;
+  /* The main difference between padding and margin is that padding is the space between the element's content and its border, while margin is the space between the element's border and the next element. Padding is used to create space within an element, while margin is used to create space between elements. */
+  box-shadow: 10px 10px 10px rgba(14, 12, 12, 0.534);
+  /* The box-shadow property attaches one or more shadows to an element */
+}
+.tagline {
+  /* display: block means that the element is displayed as a block, as paragraphs and headers have always been */
+  /* display: inline means that the element is displayed inline, inside the current block on the same line */
+  display: block;
+  font-family: "Acme", sans-serif;
+  font-size: 70px;
+  margin-top: 50px;
+  color: #5d0137;
+  /* The text-shadow CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and any of its decorations . Each shadow is described by some combination of X and Y offsets from the element, blur radius, and color. */
+  text-shadow: 2px 4px 2px #e7d8e1;
+}
+.tagline-para {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  margin: 0 auto;
+  color: #0c0b0bfd;
+  font-family: "Karla", sans-serif;
+}
+.latest-container {
+  margin: 10px;
+}
+.line {
+  display: inline-block;
+  width: 20%;
+}
+
+.latest-designs {
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+.product-container {
+  display: flex;
+  /* Flex-wrap allows us to wrap elements onto the next line when there is not enough room for them in the current row of content */
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.home-products {
+  height: 250px;
+  width: 270px;
+  margin: 10px 10px;
+  padding: 10px 0;
+  text-decoration: none;
+  border: 1px solid rgba(128, 128, 128, 0.24);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px gray;
+  font-size: 100%;
+  background: white;
+}
+.products-shoe-image {
+  height: 150px;
+}
+.shoe-name {
+  color: #5d0137;
+}
+.shoe-price {
+  color: rgb(96, 110, 96);
+  text-shadow: 1px 1px 1px black;
+}
+/* @media (max-width: 1000px) {
+  .banner-image {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner-image {
+    height: 50vh;
+  }
+} */

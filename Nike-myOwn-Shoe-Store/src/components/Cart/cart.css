@@ -1,0 +1,83 @@
+.clear-cart-button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #efd2d2;
+  cursor: pointer;
+  box-shadow: 0 5px #999;
+}
+/* Hover: It is the state that occurs by putting your cursor over the button. You cannot see this state using the keyboard. */
+/* Focus: Indicates that the button element is ready to be active. Although it looks very similar to the hover case, it is different. 
+It is a state that can be seen with both mouse and keyboard. (It depends on the browser and the settings you apply, you can usually ‘focus’ on elements by pressing the tab */
+/* Active: Very simply, it is the state of an element that is active. For example, in our example, it is the state of interacting with the button. Although it is often confused, the active state is different from the selected.
+ */
+.clear-cart-button:hover {
+  background: #3e8e41ce;
+}
+.clear-cart-button:active {
+  background-color: #3b953e;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+.clear-cart-image {
+  height: 50px;
+}
+.cart-shoe-image {
+  border-radius: 50px;
+  height: 150px;
+}
+.item-button {
+  padding: 0.3rem;
+  width: 2rem;
+  font-size: 1.2rem;
+  margin: 0.1rem;
+  cursor: pointer;
+}
+.quantity {
+  margin: 10px auto 5px auto;
+  text-align: center;
+  padding: 8px;
+  font-size: 20px;
+  align-self: center;
+  text-shadow: 1px 1px 2px gray;
+  border-radius: 10px;
+  width: 60px;
+  outline: none;
+  background: #e0e0e0;
+}
+/* .cart-product {
+  margin: 40px;
+  padding: 20px;
+  text-decoration: none;
+  border: 1px solid rgba(128, 128, 128, 0.24);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px gray;
+  font-size: 100%;
+  background: white;
+} */
+.cart-shoe-name {
+  color: black;
+  font-size: 14px;
+  padding-top: 10px;
+  font-family: "Times New Roman", Times, serif !important;
+}
+.cart-products {
+  display: inline-block;
+  margin: 10px 10px;
+  text-decoration: none;
+  position: relative;
+  border: 1px solid rgba(128, 128, 128, 0.24);
+  border-radius: 20px;
+  padding: 10px 0;
+  background: #fafaf8;
+  box-shadow: 2px 2px 2px gray;
+  width: 300px;
+  height: 300px;
+}
+.shoe-price-cart {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif !important;
+  color: rgb(42, 38, 38);
+}

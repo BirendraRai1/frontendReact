@@ -1,0 +1,45 @@
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.home-products {
+  height: 350px;
+  width: 300px;
+  margin: 40px;
+  padding: 20px;
+  text-decoration: none;
+  border: 1px solid rgba(128, 128, 128, 0.24);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px gray;
+  font-size: 100%;
+  background: white;
+}
+.shoe-name {
+  color: #5d0137;
+}
+.shoe-price {
+  color: rgb(96, 110, 96);
+  text-shadow: 1px 1px 1px black;
+}
+.products-shoe-image {
+  height: 150px;
+}
+.cart-button {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #efd2d2;
+  box-shadow: 0 5px #999;
+  /* Assigning outline a value of 0 or none will remove the browser's default focus style */
+  outline: none;
+  /* difference between border:none and border:0
+  for border:none For this property, the browser does not render. Memory is occupied for this property
+  for border:0 For this property, the browser renders border-color and border-width properties. Memory is not occupied for this property and it saves bandwidth as compared with border:none  property. */
+  border: none;
+}
+.cart-image {
+  height: 30px;
+}
